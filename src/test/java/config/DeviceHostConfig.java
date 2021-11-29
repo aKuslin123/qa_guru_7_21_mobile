@@ -6,6 +6,6 @@ import org.aeonbits.owner.Config;
 public interface DeviceHostConfig extends Config {
 
     @Key("device.host")
-    @DefaultValue("appium")
+    @DefaultValue("selenoid")
     String deviceHost();
 }

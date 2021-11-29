@@ -5,7 +5,7 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "system:properties",
-        "classpath:config/selenoid.properties"
+        "classpath:config/selenoid.properties.example"
 })
 public interface SelenoidConfig extends Config {
     @Key("selenoid.server.url")
