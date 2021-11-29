@@ -23,6 +23,3 @@ public interface AppiumConfig extends Config {
     @Key("app.url")
     String appURL();
 }
-
-
-

@@ -6,5 +6,3 @@ device.name=android
 platform.name=Android
 version=8.1
 app.url=https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk
-
-
